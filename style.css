@@ -1,0 +1,63 @@
+
+
+.title {font-size: 50px;
+    text-align: center;}
+body {background-color:lightgray;
+    background-size: 100%;}
+
+
+.blurb {
+    color:black;
+    font-size: 20px;
+    
+
+    }
+.duncanimage{	
+    float: left;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.lista{
+    padding-top: 20px;
+    font-size: large;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.main{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.github{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.email{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.buttons{
+    padding-top: 63px;
+}
+.creative{
+    float: left;
+    
+    padding-right: 140px;
+}
+.projects{
+    float: left;
+    padding-left: 2px;
+    padding-right: 140px;
+}
+.links{
+
+}

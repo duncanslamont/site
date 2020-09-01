@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html>
-<title>Duncan's crazy, wacky page</title>
+
 <head>
-
-<div class = "title">Welcome to duncan.life!</div>
-
-
-
-<style type = "text/css">
-	.about {color:white; text-align:center}
-	.title {font-size: 50px;
-			text-align: center;}
-	body {background-image: url('https://i.imgur.com/djwYs00.jpg');
-		  background-size: 100%;}
-	img{
-		display:block;
-		margin: 0px auto 0 auto;
-
+	<title>Webpage of Duncan Lamont</title>
+	<div class = "title" id = "title">Duncan.Life</div>
 	
-	}
-</style>
-
-
-
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="test.js"></script>
 </head>
-<body>
-	
-<div class = "duncanimage">
-	<img src="https://i.imgur.com/GBeXzkx.png" alt="duncanimage"  width="181" height="228" border = "5">
-</div>
 
-<div class = "about">
-	<p>Hi there! My name is Duncan Lamont, and I am studying computer science at New York University.</p>
-	<p>This is a temporary layout for my site, but here is a link to my github with a few of my other projects.</p>
-	<p> This is a test.</p>
-	<a href="https://github.com/duncanslamont">Github</a>
-</div>
+<body>
+	<div class = "intro" id = "intro">
+		<div class = "duncanimage" id = "duncanimage">
+			<img src="https://i.imgur.com/nLe7KXi.jpg" alt="duncanimage"  width="103" height="264" border = "5">
+		</div>
+
+		<div class="blurb" id = "blurb">
+			<p>My name is Duncan Lamont, and I'm studying computer science at New York University.
+			I created this site from scratch as a project.</p>
+			<p>I also enjoy creative endeavours, such as writing and making music, and I'm on the 
+			NYU ultimate frisbee team. Thank you for visiting.
+			</p>
+		</div>
+	</div>
+	
+
+	<div class = "buttons" id = "buttons">
+		<div class = "projects" id = "projects"><button onclick="clickProjects()">Projects</button></div>
+		<div class = "creative" id = "creative"><button onclick="clickCreative()">Creative</button></div>
+		<div class = "links" id = "links"><button onclick="clickLinks()">Links</button></div>
+	</div>
+
+	<div class = "main" id= "main">Thisi san incerdinlt long senntence and im just writing nonsense at this points I hosuld really parcitde my writing schill.s heres some more stuff just for kicks hahahah</div>
+	<div class = "lista" id = "lista"></div>
+	<div class = "github" id = "github"></div>
+	<div class = "email" id = "email"></div>
+
+
 
 </body>
 </html>
