@@ -20,6 +20,8 @@ function setUpPage(){
 
 function clickCreative(){
     lista.innerHTML = ""
+    github.innerHTML = ""
+    email.innerHTML = ""
     main.innerHTML = "Hi, I'm Duncan, and this is my site. In my free time I write, and occasionally make music. I write comedy short stories, if you're interested you can email me (links tab). Here is a link to hear some of my music: "
     var a = document.createElement('a');  
     var link = document.createTextNode("SoundCloud"); 
@@ -36,6 +38,8 @@ function clickCreative(){
 }
 function clickProjects(){
     lista.innerHTML = ""
+    github.innerHTML = ""
+    email.innerHTML = ""
     main.innerHTML = "Some recent projects I've made are(all on my github): "
     var node = document.createElement("LI");
     var textnode = document.createTextNode("K Means Clustering project for textual data, which had a 98% accuracy in my tests.");
@@ -55,6 +59,8 @@ function clickProjects(){
 }
 function clickLinks(){
     lista.innerHTML = ""
+    github.innerHTML = ""
+    email.innerHTML = ""
     main.innerHTML = ""
     var a = document.createElement('a');  
     var link = document.createTextNode("Github"); 
