@@ -47,7 +47,7 @@ function clickProjects(){
     document.getElementById("lista").appendChild(node);
 
     var node1 = document.createElement("LI");
-    var textnod1e = document.createTextNode("K Nearest Neighbors for textual data, which had a 98% accuracy in my tests.");
+    var textnod1e = document.createTextNode("K Nearest Neighbors for textual data, which had a 100% accuracy in my tests.");
     node1.appendChild(textnod1e);
     document.getElementById("lista").appendChild(node1);
 
